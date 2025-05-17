@@ -10,24 +10,35 @@
 </head>
 <body>
   <div class="greetings">
-    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
     <span>H</span>
     <span>A</span>
-    <span>L</span>
-    <span>L</span>
-    <span>O</span>
+    <span>I</span>
+    <span> </span>
+    <span>R</span>
+    <span>I</span>
+    <span>N</span>
   </div>
   <div class="description">
-    <span>dah lama suka kamu, mau ga jdi psngan ku rin, oh ya ini aku ad sesuatu buat mu hehe.!</span>
+    <span>Mungkin ini aku mau bilang, kamu mau ngga rin jadi pasangan ku?</span>
+    <span>Jujur aku gapunya nyali selama ini.</span>
+    <span>Skrng yang penting aku sudah menyampaikan tolong dijawab ya rin.</span>
+    <span>Aku cuma mau tau kamu mau atau ngga itu doang makasi hehe><</span>
   </div>
   <div class="button">
     <button>
-      <a href="flower.html">Klik disini</a>
+      <a href="flower.html">sebagai tanda ucapan klik ini</a>
     </button>
   </div>
-  <audio id="musik" autoplay loop>
+  <audio id="musik" autoplay loop playsinline>
     <source src="musiku.mp3" type="audio/mp3">
     Your browser does not support the audio tag.
   </audio>
+  <script>
+    document.addEventListener("click", function() {
+      var musik = document.getElementById("musik");
+      musik.play();
+    });
+  </script>
 </body>
-</html>
+  </html>
+  
