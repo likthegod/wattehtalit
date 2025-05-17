@@ -12,8 +12,9 @@
   <div class="greetings">
     <span>H</span>
     <span>A</span>
-    <span>I</span>
-    <span> </span>
+    <span>l</span>
+    <span>O</span>
+    <span>E</span>
     <span>R</span>
     <span>I</span>
     <span>N</span>
@@ -28,17 +29,17 @@
     <button>
       <a href="flower.html">sebagai tanda ucapan klik ini</a>
     </button>
+    <button onclick="playMusic()">Play Musik</button>
   </div>
-  <audio id="musik" autoplay loop playsinline>
+  <audio id="musik" loop>
     <source src="musiku.mp3" type="audio/mp3">
     Your browser does not support the audio tag.
   </audio>
   <script>
-    document.addEventListener("click", function() {
+    function playMusic() {
       var musik = document.getElementById("musik");
       musik.play();
-    });
+    }
   </script>
 </body>
-  </html>
-  
+</html>
